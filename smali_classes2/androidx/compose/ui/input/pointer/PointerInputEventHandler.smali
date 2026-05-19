@@ -1,0 +1,17 @@
+.class public interface abstract Landroidx/compose/ui/input/pointer/PointerInputEventHandler;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# virtual methods
+.method public abstract invoke(Lz2/z;Lv70/d;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lz2/z;",
+            "Lv70/d;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+.end method

@@ -1,0 +1,255 @@
+.class public final enum Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+.super Ljava/lang/Enum;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/adapty/ui/AdaptyCustomAssets;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "AssetType"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/adapty/ui/AdaptyCustomAssets$AssetType;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+.field public static final enum COLOR:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+.field public static final enum FONT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+.field public static final enum GRADIENT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+.field public static final enum IMAGE:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+.field public static final enum VIDEO:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+
+# direct methods
+.method private static final synthetic $values()[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+    .locals 5
+
+    .line 1
+    sget-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->COLOR:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 2
+    .line 3
+    sget-object v1, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->GRADIENT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 4
+    .line 5
+    sget-object v2, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->IMAGE:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 6
+    .line 7
+    sget-object v3, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->VIDEO:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 8
+    .line 9
+    sget-object v4, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->FONT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 10
+    .line 11
+    filled-new-array {v0, v1, v2, v3, v4}, [Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 2
+    .line 3
+    const-string v1, "COLOR"
+
+    .line 4
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    invoke-direct {v0, v1, v2}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;-><init>(Ljava/lang/String;I)V
+
+    .line 7
+    .line 8
+    .line 9
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->COLOR:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 10
+    .line 11
+    new-instance v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 12
+    .line 13
+    const-string v1, "GRADIENT"
+
+    .line 14
+    .line 15
+    const/4 v2, 0x1
+
+    .line 16
+    invoke-direct {v0, v1, v2}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;-><init>(Ljava/lang/String;I)V
+
+    .line 17
+    .line 18
+    .line 19
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->GRADIENT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 20
+    .line 21
+    new-instance v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 22
+    .line 23
+    const-string v1, "IMAGE"
+
+    .line 24
+    .line 25
+    const/4 v2, 0x2
+
+    .line 26
+    invoke-direct {v0, v1, v2}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;-><init>(Ljava/lang/String;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->IMAGE:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 30
+    .line 31
+    new-instance v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 32
+    .line 33
+    const-string v1, "VIDEO"
+
+    .line 34
+    .line 35
+    const/4 v2, 0x3
+
+    .line 36
+    invoke-direct {v0, v1, v2}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;-><init>(Ljava/lang/String;I)V
+
+    .line 37
+    .line 38
+    .line 39
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->VIDEO:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 40
+    .line 41
+    new-instance v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 42
+    .line 43
+    const-string v1, "FONT"
+
+    .line 44
+    .line 45
+    const/4 v2, 0x4
+
+    .line 46
+    invoke-direct {v0, v1, v2}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;-><init>(Ljava/lang/String;I)V
+
+    .line 47
+    .line 48
+    .line 49
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->FONT:Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 50
+    .line 51
+    invoke-static {}, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->$values()[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object v0
+
+    .line 55
+    sput-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->$VALUES:[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 56
+    .line 57
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+    .locals 1
+
+    .line 1
+    const-class v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public static values()[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/adapty/ui/AdaptyCustomAssets$AssetType;->$VALUES:[Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [Lcom/adapty/ui/AdaptyCustomAssets$AssetType;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method

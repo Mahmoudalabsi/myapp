@@ -1,0 +1,32 @@
+.class public interface abstract Lty/a;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# virtual methods
+.method public abstract dismissCurrentInAppMessage()V
+.end method
+
+.method public abstract displayMessage(Lcom/onesignal/inAppMessages/internal/a;Lv70/d;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/onesignal/inAppMessages/internal/a;",
+            "Lv70/d;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+.end method
+
+.method public abstract displayPreviewMessage(Ljava/lang/String;Lv70/d;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lv70/d;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+.end method

@@ -1,0 +1,82 @@
+.class public abstract Li1/w;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# static fields
+.field public static final a:Lp1/i3;
+
+.field public static final b:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lfm/f;
+
+    .line 2
+    .line 3
+    const/16 v1, 0x10
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lfm/f;-><init>(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    new-instance v1, Lp1/i3;
+
+    .line 9
+    .line 10
+    invoke-direct {v1, v0}, Lp1/x1;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    .line 11
+    .line 12
+    .line 13
+    sput-object v1, Li1/w;->a:Lp1/i3;
+
+    .line 14
+    .line 15
+    const/16 v0, 0x30
+
+    .line 16
+    .line 17
+    int-to-float v0, v0
+
+    .line 18
+    invoke-static {v0, v0}, Lja0/g;->a(FF)J
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-wide v0
+
+    .line 22
+    sput-wide v0, Li1/w;->b:J
+
+    .line 23
+    .line 24
+    return-void
+.end method
+
+.method public static final a(Landroidx/compose/ui/Modifier;)Landroidx/compose/ui/Modifier;
+    .locals 1
+
+    .line 1
+    sget-object v0, Li1/b0;->F:Li1/b0;
+
+    .line 2
+    .line 3
+    invoke-interface {p0, v0}, Landroidx/compose/ui/Modifier;->t(Landroidx/compose/ui/Modifier;)Landroidx/compose/ui/Modifier;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method

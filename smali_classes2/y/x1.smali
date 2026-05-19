@@ -1,0 +1,30 @@
+.class public abstract Ly/x1;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# static fields
+.field public static final synthetic a:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    const/high16 v0, 0x40400000    # 3.0f
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method

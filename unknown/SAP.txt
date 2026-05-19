@@ -1,0 +1,29 @@
+
+
+
+
+
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+                  Split APKs Packer  -  v6.9.11 by Kirlif'
+
+                          Contact: sap_dev@tuta.io
+
+                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+                       Android App Bundle Repackaged
+
+        # Base: -name: com.andalusi.app.android
+                -versionCode: 200
+                -versionName: 2.8.0
+        # Languages: none
+        # DPIs: mdpi
+        # CPUs: armeabi_v7a
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+

@@ -1,0 +1,89 @@
+.class public final Lx30/v;
+.super Lx70/c;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# instance fields
+.field public F:Lj40/f;
+
+.field public G:Lio/ktor/utils/io/t;
+
+.field public H:Lio/ktor/utils/io/t;
+
+.field public synthetic I:Ljava/lang/Object;
+
+.field public J:I
+
+
+# direct methods
+.method public constructor <init>(Lx70/c;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lx70/c;-><init>(Lv70/d;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 8
+
+    .line 1
+    iput-object p1, p0, Lx30/v;->I:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    iget p1, p0, Lx30/v;->J:I
+
+    .line 4
+    .line 5
+    const/high16 v0, -0x80000000
+
+    .line 6
+    .line 7
+    or-int/2addr p1, v0
+
+    .line 8
+    iput p1, p0, Lx30/v;->J:I
+
+    .line 9
+    .line 10
+    const/4 v5, 0x0
+
+    .line 11
+    const/4 v6, 0x0
+
+    .line 12
+    const/4 v0, 0x0
+
+    .line 13
+    const/4 v1, 0x0
+
+    .line 14
+    const/4 v2, 0x0
+
+    .line 15
+    const/4 v3, 0x0
+
+    .line 16
+    const/4 v4, 0x0
+
+    .line 17
+    move-object v7, p0
+
+    .line 18
+    invoke-static/range {v0 .. v7}, Lx30/a0;->c(Lu30/b;Lx30/i0;Lf40/k0;Lj40/f;Lf40/v;Lf40/q;Ljava/util/List;Lx70/c;)Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p1
+
+    .line 22
+    return-object p1
+.end method

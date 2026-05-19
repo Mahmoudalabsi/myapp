@@ -1,0 +1,53 @@
+.class public final Lp6/g1;
+.super Lkotlin/jvm/internal/q;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic F:J
+
+
+# direct methods
+.method public constructor <init>(J)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lp6/g1;->F:J
+
+    .line 2
+    .line 3
+    const/4 p1, 0x0
+
+    .line 4
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/q;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lh4/i;
+
+    .line 2
+    .line 3
+    iget-wide v1, p0, Lp6/g1;->F:J
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1, v2}, Lh4/i;-><init>(J)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method

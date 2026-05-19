@@ -1,0 +1,30 @@
+.class public interface abstract Lpx/c;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# virtual methods
+.method public abstract onModelAdded(Lpx/h;Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lpx/h;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract onModelRemoved(Lpx/h;Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lpx/h;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract onModelUpdated(Lpx/i;Ljava/lang/String;)V
+.end method

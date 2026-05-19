@@ -1,0 +1,283 @@
+{
+  "size": {
+    "size": [
+      1080,
+      1080
+    ],
+    "value": 1,
+    "title": "1:1",
+    "isFreeCrop": false,
+    "lockGrid": true,
+    "invert": false
+  },
+  "layers": [
+    {
+      "type": "background",
+      "value": {
+        "fillType": {
+          "basic": {
+            "fill": {
+              "status": "active",
+              "content": {
+                "value": {
+                  "paletteValue": {
+                    "advancedColor": {
+                      "model": {
+                        "value": {
+                          "red": 1,
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "solid"
+              },
+              "opacity": 1
+            }
+          }
+        },
+        "layerId": "FC5B895F-B31A-4AAD-A6B0-30BA8714A281-47897-0000013521E5EB42_202410211249037",
+        "frame": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "type": "background",
+        "opacity": 1,
+        "blendMode": "normalBlendMode"
+      }
+    },
+    {
+      "type": "image",
+      "value": {
+        "shadow": {
+          "fill": {
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "advancedColor": {
+                    "model": {
+                      "value": {
+                        "red": 0,
+                        "alpha": 1,
+                        "blue": 0,
+                        "green": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "type": "solid"
+            },
+            "status": "notDetermined",
+            "opacity": 1
+          },
+          "size": 0.20000000000000001,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "stroke": {
+          "width": 0.5,
+          "fill": {
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "advancedColor": {
+                    "model": {
+                      "value": {
+                        "red": 0,
+                        "alpha": 1,
+                        "blue": 0,
+                        "green": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "type": "solid"
+            },
+            "opacity": 1,
+            "status": "notDetermined"
+          }
+        },
+        "transform": {
+          "scale": [
+            0.35569744391981462,
+            0.35569744391981506
+          ],
+          "rotation": 0,
+          "center": [
+            0,
+            0
+          ]
+        },
+        "frame": [
+          [
+            0.069798511253005888,
+            0.092229354557732401
+          ],
+          [
+            0.37791666666666668,
+            0.5
+          ]
+        ],
+        "media": {
+          "image": {
+            "name": "92B2F3FB-5B85-4141-B927-B3DB21E22B0E-47897-0000013548C03BFC_202410211250004.jpg"
+          }
+        },
+        "fill": {
+          "content": {
+            "type": "solid",
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "status": "notDetermined",
+          "opacity": 1
+        },
+        "type": "image",
+        "layerId": "92B2F3FB-5B85-4141-B927-B3DB21E22B0E-47897-0000013548C03BFC_202410211250004",
+        "opacity": 1,
+        "name": ""
+      }
+    },
+    {
+      "value": {
+        "stroke": {
+          "width": 0.5,
+          "fill": {
+            "opacity": 1,
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "advancedColor": {
+                    "model": {
+                      "value": {
+                        "red": 0,
+                        "alpha": 1,
+                        "blue": 0,
+                        "green": 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "shadow": {
+          "fill": {
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "advancedColor": {
+                    "model": {
+                      "value": {
+                        "red": 0,
+                        "alpha": 1,
+                        "blue": 0,
+                        "green": 0
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "opacity": 1,
+            "status": "notDetermined"
+          },
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ],
+          "size": 0.20000000000000001
+        },
+        "transform": {
+          "scale": [
+            1.4857634746382373,
+            1.4857634746382387
+          ],
+          "rotation": 0,
+          "center": [
+            0,
+            0
+          ]
+        },
+        "frame": [
+          [
+            0.71925261010481623,
+            0.37576647227620708
+          ],
+          [
+            0.37791666666666668,
+            0.5
+          ]
+        ],
+        "media": {
+          "image": {
+            "name": "62CB8DFC-7544-49DD-BB10-698D0B6CC10C-47897-00000135712ACE4A_202410211250033.jpg"
+          }
+        },
+        "fill": {
+          "opacity": 1,
+          "status": "notDetermined",
+          "content": {
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            },
+            "type": "solid"
+          }
+        },
+        "type": "image",
+        "layerId": "62CB8DFC-7544-49DD-BB10-698D0B6CC10C-47897-00000135712ACE4A_202410211250033",
+        "name": "",
+        "opacity": 1
+      },
+      "type": "image"
+    }
+  ],
+  "info": {
+    "version": 2,
+    "projectType": {
+      "image": {
+        "type": "JPEG"
+      }
+    }
+  }
+}

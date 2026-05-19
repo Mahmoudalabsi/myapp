@@ -1,0 +1,97 @@
+.class public final synthetic Lcom/onesignal/inAppMessages/internal/triggers/impl/d;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+# interfaces
+.implements Lg80/b;
+
+
+# instance fields
+.field public final synthetic F:I
+
+.field public final synthetic G:Lcz/d;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcz/d;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lcom/onesignal/inAppMessages/internal/triggers/impl/d;->F:I
+
+    .line 2
+    .line 3
+    iput-object p1, p0, Lcom/onesignal/inAppMessages/internal/triggers/impl/d;->G:Lcz/d;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/onesignal/inAppMessages/internal/triggers/impl/d;->F:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lcom/onesignal/inAppMessages/internal/triggers/impl/d;->G:Lcz/d;
+
+    .line 7
+    .line 8
+    check-cast p1, Lcz/b;
+
+    .line 9
+    .line 10
+    invoke-static {v0, p1}, Lcom/onesignal/inAppMessages/internal/triggers/impl/f;->b(Lcz/d;Lcz/b;)Lp70/c0;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object p1
+
+    .line 14
+    return-object p1
+
+    .line 15
+    :pswitch_0
+    iget-object v0, p0, Lcom/onesignal/inAppMessages/internal/triggers/impl/d;->G:Lcz/d;
+
+    .line 16
+    .line 17
+    check-cast p1, Lcz/b;
+
+    .line 18
+    .line 19
+    invoke-static {v0, p1}, Lcom/onesignal/inAppMessages/internal/triggers/impl/f;->a(Lcz/d;Lcz/b;)Lp70/c0;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p1
+
+    .line 23
+    return-object p1
+
+    .line 24
+    nop
+
+    .line 25
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

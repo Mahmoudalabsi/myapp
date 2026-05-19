@@ -1,0 +1,32 @@
+.class public final Lv70/e;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+# interfaces
+.implements Lv70/h;
+
+
+# static fields
+.field public static final synthetic F:Lv70/e;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lv70/e;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lv70/e;->F:Lv70/e;
+
+    .line 7
+    .line 8
+    return-void
+.end method

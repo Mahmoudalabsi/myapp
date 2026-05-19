@@ -1,0 +1,335 @@
+.class public interface abstract Lpx/b;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+# interfaces
+.implements Lcom/onesignal/common/events/d;
+
+
+# direct methods
+.method public static synthetic add$default(Lpx/b;ILpx/h;Ljava/lang/String;ILjava/lang/Object;)V
+    .locals 0
+
+    if-nez p5, :cond_1
+
+    and-int/lit8 p4, p4, 0x4
+
+    if-eqz p4, :cond_0
+
+    .line 3
+    const-string p3, "NORMAL"
+
+    .line 4
+    :cond_0
+    invoke-interface {p0, p1, p2, p3}, Lpx/b;->add(ILpx/h;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string p1, "Super calls with default arguments not supported in this target, function: add"
+
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic add$default(Lpx/b;Lpx/h;Ljava/lang/String;ILjava/lang/Object;)V
+    .locals 0
+
+    if-nez p4, :cond_1
+
+    and-int/lit8 p3, p3, 0x2
+
+    if-eqz p3, :cond_0
+
+    .line 1
+    const-string p2, "NORMAL"
+
+    .line 2
+    :cond_0
+    invoke-interface {p0, p1, p2}, Lpx/b;->add(Lpx/h;Ljava/lang/String;)V
+
+    return-void
+
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    const-string p1, "Super calls with default arguments not supported in this target, function: add"
+
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic clear$default(Lpx/b;Ljava/lang/String;ILjava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    if-nez p3, :cond_1
+
+    .line 2
+    .line 3
+    and-int/lit8 p2, p2, 0x1
+
+    .line 4
+    .line 5
+    if-eqz p2, :cond_0
+
+    .line 6
+    .line 7
+    const-string p1, "NORMAL"
+
+    .line 8
+    .line 9
+    :cond_0
+    invoke-interface {p0, p1}, Lpx/b;->clear(Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 14
+    .line 15
+    const-string p1, "Super calls with default arguments not supported in this target, function: clear"
+
+    .line 16
+    .line 17
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 18
+    .line 19
+    .line 20
+    throw p0
+.end method
+
+.method public static synthetic create$default(Lpx/b;Lorg/json/JSONObject;ILjava/lang/Object;)Lpx/h;
+    .locals 0
+
+    .line 1
+    if-nez p3, :cond_1
+
+    .line 2
+    .line 3
+    and-int/lit8 p2, p2, 0x1
+
+    .line 4
+    .line 5
+    if-eqz p2, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p1, 0x0
+
+    .line 8
+    :cond_0
+    invoke-interface {p0, p1}, Lpx/b;->create(Lorg/json/JSONObject;)Lpx/h;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p0
+
+    .line 12
+    return-object p0
+
+    .line 13
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 14
+    .line 15
+    const-string p1, "Super calls with default arguments not supported in this target, function: create"
+
+    .line 16
+    .line 17
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 18
+    .line 19
+    .line 20
+    throw p0
+.end method
+
+.method public static synthetic remove$default(Lpx/b;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    if-nez p4, :cond_1
+
+    .line 2
+    .line 3
+    and-int/lit8 p3, p3, 0x2
+
+    .line 4
+    .line 5
+    if-eqz p3, :cond_0
+
+    .line 6
+    .line 7
+    const-string p2, "NORMAL"
+
+    .line 8
+    .line 9
+    :cond_0
+    invoke-interface {p0, p1, p2}, Lpx/b;->remove(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 14
+    .line 15
+    const-string p1, "Super calls with default arguments not supported in this target, function: remove"
+
+    .line 16
+    .line 17
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 18
+    .line 19
+    .line 20
+    throw p0
+.end method
+
+.method public static synthetic replaceAll$default(Lpx/b;Ljava/util/List;Ljava/lang/String;ILjava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    if-nez p4, :cond_1
+
+    .line 2
+    .line 3
+    and-int/lit8 p3, p3, 0x2
+
+    .line 4
+    .line 5
+    if-eqz p3, :cond_0
+
+    .line 6
+    .line 7
+    const-string p2, "NORMAL"
+
+    .line 8
+    .line 9
+    :cond_0
+    invoke-interface {p0, p1, p2}, Lpx/b;->replaceAll(Ljava/util/List;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+
+    .line 13
+    :cond_1
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 14
+    .line 15
+    const-string p1, "Super calls with default arguments not supported in this target, function: replaceAll"
+
+    .line 16
+    .line 17
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 18
+    .line 19
+    .line 20
+    throw p0
+.end method
+
+
+# virtual methods
+.method public abstract add(ILpx/h;Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Lpx/h;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract add(Lpx/h;Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lpx/h;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract clear(Ljava/lang/String;)V
+.end method
+
+.method public abstract create(Lorg/json/JSONObject;)Lpx/h;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/json/JSONObject;",
+            ")",
+            "Lpx/h;"
+        }
+    .end annotation
+.end method
+
+.method public abstract get(Ljava/lang/String;)Lpx/h;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lpx/h;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getHasSubscribers()Z
+.end method
+
+.method public abstract list()Ljava/util/Collection;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Collection<",
+            "Lpx/h;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract remove(Ljava/lang/String;Ljava/lang/String;)V
+.end method
+
+.method public abstract replaceAll(Ljava/util/List;Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lpx/h;",
+            ">;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic subscribe(Ljava/lang/Object;)V
+.end method
+
+.method public abstract synthetic unsubscribe(Ljava/lang/Object;)V
+.end method

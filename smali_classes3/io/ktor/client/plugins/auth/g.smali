@@ -1,0 +1,71 @@
+.class public final Lio/ktor/client/plugins/auth/g;
+.super Lx70/c;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+
+# instance fields
+.field public F:Lm30/f;
+
+.field public G:Lv30/j;
+
+.field public H:Lio/ktor/client/plugins/auth/a;
+
+.field public I:Ljava/util/Map;
+
+.field public synthetic J:Ljava/lang/Object;
+
+.field public K:I
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    iput-object p1, p0, Lio/ktor/client/plugins/auth/g;->J:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    iget p1, p0, Lio/ktor/client/plugins/auth/g;->K:I
+
+    .line 4
+    .line 5
+    const/high16 v0, -0x80000000
+
+    .line 6
+    .line 7
+    or-int/2addr p1, v0
+
+    .line 8
+    iput p1, p0, Lio/ktor/client/plugins/auth/g;->K:I
+
+    .line 9
+    .line 10
+    const/4 v3, 0x0
+
+    .line 11
+    const/4 v4, 0x0
+
+    .line 12
+    const/4 v0, 0x0
+
+    .line 13
+    const/4 v1, 0x0
+
+    .line 14
+    const/4 v2, 0x0
+
+    .line 15
+    move-object v5, p0
+
+    .line 16
+    invoke-static/range {v0 .. v5}, Lio/ktor/client/plugins/auth/h;->b(Lq40/a;Lo40/a;Lm30/f;Lv30/j;Lb40/c;Lx70/c;)Ljava/lang/Object;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object p1
+
+    .line 20
+    return-object p1
+.end method

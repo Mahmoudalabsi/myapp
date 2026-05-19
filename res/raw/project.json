@@ -1,0 +1,777 @@
+{
+  "info": {
+    "version": 1.7,
+    "projectType": {
+      "image": {
+        "type": "JPEG"
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "background",
+      "value": {
+        "frame": [
+          [
+            0.5,
+            0.5
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "layerId": "0E543505-AE7A-421E-AD56-4CAD8D872B87-1493-0000023396A36ADA_202407280217005",
+        "fillType": {
+          "basic": {
+            "fill": {
+              "opacity": 1,
+              "status": "active",
+              "content": {
+                "type": "solid",
+                "value": {
+                  "paletteValue": {
+                    "advancedColor": {
+                      "model": {
+                        "value": {
+                          "red": 1,
+                          "alpha": 1,
+                          "blue": 1,
+                          "green": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "background",
+        "opacity": 1,
+        "blendMode": "normalBlendMode"
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "stroke": {
+          "fill": {
+            "status": "notDetermined",
+            "opacity": 0,
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            }
+          },
+          "width": 0.5
+        },
+        "backgroundFill": {
+          "fill": {
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            },
+            "opacity": 0,
+            "status": "notDetermined"
+          },
+          "cornerRadius": 0.20000000000000001
+        },
+        "font": {
+          "size": 0.070000000000000007,
+          "fontIndex": {
+            "groupId": 2,
+            "subgroupId": 18
+          },
+          "scaleSize": 42,
+          "family": {
+            "is_premium": false,
+            "new": false,
+            "postscript": "Poppins-Regular",
+            "id": 314,
+            "colored": false,
+            "thumb": "storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d_WNHpD\/WNHpD@2x.png",
+            "full_name": "Poppins Regular",
+            "save_name": "Poppins-Regular.ttf",
+            "url": "https:\/\/and.appchief.dev\/storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d.ttf"
+          }
+        },
+        "layerId": "BA52D299-BAE5-4565-88A6-C2E9D3EE08F2-1493-00000233A3B23484_202407280217014",
+        "shadow": {
+          "size": 0.20000000000000001,
+          "fill": {
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            },
+            "opacity": 0,
+            "status": "notDetermined"
+          },
+          "on": false,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "frame": [
+          [
+            0.21517695085184418,
+            0.23428121268466806
+          ],
+          [
+            0.2046129541864139,
+            0.070426540284360184
+          ]
+        ],
+        "fill": {
+          "status": "active",
+          "opacity": 1,
+          "content": {
+            "type": "solid",
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "transform": {
+          "center": [
+            0,
+            0
+          ],
+          "rotation": 0.73482731696817605,
+          "scale": [
+            0.99999999999999878,
+            0.999999999999998
+          ]
+        },
+        "opacity": 1,
+        "type": "text",
+        "text": {
+          "text": "روتيشن",
+          "textAlignment": {
+            "center": {}
+          },
+          "bullet": "none",
+          "arc": {
+            "height": 0,
+            "radius": 0
+          },
+          "lines": [
+            [
+              0,
+              6
+            ]
+          ],
+          "spacing": {
+            "lineSpacing": 0.009478672985781991
+          }
+        },
+        "contentInset": [
+          25,
+          20
+        ]
+      }
+    },
+    {
+      "value": {
+        "stroke": {
+          "width": 0.5,
+          "fill": {
+            "opacity": 0,
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            }
+          }
+        },
+        "backgroundFill": {
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            },
+            "opacity": 0
+          },
+          "cornerRadius": 0.20000000000000001
+        },
+        "font": {
+          "size": 0.070000000000000007,
+          "fontIndex": {
+            "groupId": 2,
+            "subgroupId": 18
+          },
+          "scaleSize": 42,
+          "family": {
+            "is_premium": false,
+            "postscript": "Poppins-Regular",
+            "new": false,
+            "id": 314,
+            "colored": false,
+            "thumb": "storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d_WNHpD\/WNHpD@2x.png",
+            "save_name": "Poppins-Regular.ttf",
+            "full_name": "Poppins Regular",
+            "url": "https:\/\/and.appchief.dev\/storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d.ttf"
+          }
+        },
+        "shadow": {
+          "size": 0.20000000000000001,
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            },
+            "opacity": 0
+          },
+          "on": false,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "frame": [
+          [
+            0.77440695846801166,
+            0.24320800547112037
+          ],
+          [
+            0.12878357030015797,
+            0.077535545023696681
+          ]
+        ],
+        "layerId": "C4EF5D44-4959-461C-B030-92375698C424-1493-00000233B9FE9A77_202407280217030",
+        "fill": {
+          "status": "active",
+          "content": {
+            "type": "solid",
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "opacity": 1
+        },
+        "transform": {
+          "scale": [
+            1.9073454061246451,
+            1.9073454061246451
+          ],
+          "rotation": 0,
+          "center": [
+            0,
+            0
+          ]
+        },
+        "opacity": 1,
+        "type": "text",
+        "text": {
+          "text": "كبير",
+          "textAlignment": {
+            "center": {}
+          },
+          "arc": {
+            "radius": 0,
+            "height": 0
+          },
+          "bullet": "none",
+          "lines": [
+            [
+              0,
+              4
+            ]
+          ],
+          "spacing": {
+            "lineSpacing": 0.009478672985781991
+          }
+        },
+        "contentInset": [
+          25,
+          20
+        ]
+      },
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "value": {
+        "stroke": {
+          "fill": {
+            "opacity": 0,
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            },
+            "status": "notDetermined"
+          },
+          "width": 0.5
+        },
+        "backgroundFill": {
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            },
+            "opacity": 0
+          },
+          "cornerRadius": 0.20000000000000001
+        },
+        "font": {
+          "size": 0.070000000000000007,
+          "fontIndex": {
+            "groupId": 2,
+            "subgroupId": 18
+          },
+          "scaleSize": 42,
+          "family": {
+            "new": false,
+            "postscript": "Poppins-Regular",
+            "is_premium": false,
+            "id": 314,
+            "colored": false,
+            "thumb": "storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d_WNHpD\/WNHpD@2x.png",
+            "full_name": "Poppins Regular",
+            "save_name": "Poppins-Regular.ttf",
+            "url": "https:\/\/and.appchief.dev\/storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d.ttf"
+          }
+        },
+        "shadow": {
+          "size": 0.20000000000000001,
+          "fill": {
+            "opacity": 0,
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            }
+          },
+          "on": false,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "frame": [
+          [
+            0.77440695846801177,
+            0.62855602797803312
+          ],
+          [
+            0.17143759873617692,
+            0.06805687203791469
+          ]
+        ],
+        "layerId": "62CBF580-DC67-42A8-84E3-5294704E406A-1493-00000233C2F58C4B_202407280217036",
+        "fill": {
+          "content": {
+            "type": "solid",
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "opacity": 1,
+          "status": "active"
+        },
+        "transform": {
+          "center": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "scale": [
+            0.58607436951251302,
+            0.58607436951251302
+          ]
+        },
+        "opacity": 1,
+        "type": "text",
+        "text": {
+          "spacing": {
+            "lineSpacing": 0.009478672985781991
+          },
+          "bullet": "none",
+          "arc": {
+            "height": 0,
+            "radius": 0
+          },
+          "textAlignment": {
+            "center": {}
+          },
+          "lines": [
+            [
+              0,
+              4
+            ]
+          ],
+          "text": "صغير"
+        },
+        "contentInset": [
+          25,
+          20
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "stroke": {
+          "fill": {
+            "opacity": 0,
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            }
+          },
+          "width": 0.5
+        },
+        "backgroundFill": {
+          "fill": {
+            "opacity": 0,
+            "status": "notDetermined",
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            }
+          },
+          "cornerRadius": 0.20000000000000001
+        },
+        "font": {
+          "size": 0.070000000000000007,
+          "fontIndex": {
+            "groupId": 2,
+            "subgroupId": 18
+          },
+          "scaleSize": 42,
+          "family": {
+            "is_premium": false,
+            "postscript": "Poppins-Regular",
+            "url": "https:\/\/and.appchief.dev\/storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d.ttf",
+            "id": 314,
+            "colored": false,
+            "thumb": "storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d_WNHpD\/WNHpD@2x.png",
+            "full_name": "Poppins Regular",
+            "save_name": "Poppins-Regular.ttf",
+            "new": false
+          }
+        },
+        "shadow": {
+          "size": 0.20000000000000001,
+          "fill": {
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            },
+            "opacity": 0,
+            "status": "notDetermined"
+          },
+          "on": false,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "frame": [
+          [
+            0.21517695085184418,
+            0.62855602797803312
+          ],
+          [
+            0.18802527646129541,
+            0.087014218009478672
+          ]
+        ],
+        "layerId": "2843C52A-27E3-4A86-916E-01D6F9D37A08-1493-000002340E2CBD2D_202407280218028",
+        "fill": {
+          "status": "active",
+          "opacity": 1,
+          "content": {
+            "type": "solid",
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "text",
+        "opacity": 1,
+        "transform": {
+          "scale": [
+            1,
+            1
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "rotation": 0
+        },
+        "text": {
+          "spacing": {
+            "lineSpacing": 0.009478672985781991
+          },
+          "textAlignment": {
+            "center": {}
+          },
+          "bullet": "none",
+          "arc": {
+            "height": 0,
+            "radius": 0
+          },
+          "lines": [
+            [
+              0,
+              5
+            ]
+          ],
+          "text": "طبيعي"
+        },
+        "contentInset": [
+          25,
+          20
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "stroke": {
+          "width": 0.5,
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            },
+            "opacity": 0
+          }
+        },
+        "backgroundFill": {
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "type": "solid",
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              }
+            },
+            "opacity": 0
+          },
+          "cornerRadius": 0.20000000000000001
+        },
+        "font": {
+          "size": 0.070000000000000007,
+          "fontIndex": {
+            "groupId": 2,
+            "subgroupId": 18
+          },
+          "scaleSize": 42,
+          "family": {
+            "new": false,
+            "is_premium": false,
+            "postscript": "Poppins-Regular",
+            "id": 314,
+            "colored": false,
+            "thumb": "storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d_WNHpD\/WNHpD@2x.png",
+            "full_name": "Poppins Regular",
+            "save_name": "Poppins-Regular.ttf",
+            "url": "https:\/\/and.appchief.dev\/storage\/fonts\/February2023\/HZ4ZnBZnpvIOGNOm9s2d.ttf"
+          }
+        },
+        "layerId": "E2ED7D79-89BF-457E-A287-E19C3033AC1E-1493-0000023432910133_202407280218054",
+        "shadow": {
+          "size": 0.20000000000000001,
+          "fill": {
+            "status": "notDetermined",
+            "content": {
+              "value": {
+                "paletteValue": {
+                  "transparent": {}
+                }
+              },
+              "type": "solid"
+            },
+            "opacity": 0
+          },
+          "on": false,
+          "inset": [
+            -0.40000000000000002,
+            0.40000000000000002
+          ]
+        },
+        "frame": [
+          [
+            0.5,
+            0.87249603850016666
+          ],
+          [
+            0.59086887835703006,
+            0.084644549763033178
+          ]
+        ],
+        "fill": {
+          "status": "active",
+          "opacity": 1,
+          "content": {
+            "value": {
+              "paletteValue": {
+                "advancedColor": {
+                  "model": {
+                    "value": {
+                      "red": 0,
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0
+                    }
+                  }
+                }
+              }
+            },
+            "type": "solid"
+          }
+        },
+        "transform": {
+          "center": [
+            0,
+            0
+          ],
+          "rotation": 0,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        "type": "text",
+        "opacity": 1,
+        "text": {
+          "spacing": {
+            "lineSpacing": 0.009478672985781991
+          },
+          "bullet": "none",
+          "textAlignment": {
+            "center": {}
+          },
+          "arc": {
+            "radius": 0,
+            "height": 0
+          },
+          "lines": [
+            [
+              0,
+              15
+            ]
+          ],
+          "text": "Poppins Regular"
+        },
+        "contentInset": [
+          25,
+          20
+        ]
+      }
+    }
+  ],
+  "size": {
+    "value": 1,
+    "title": "Free Crop",
+    "lockGrid": false,
+    "invert": false
+  }
+}

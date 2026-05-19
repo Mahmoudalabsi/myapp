@@ -1,0 +1,195 @@
+.class public final synthetic Lx20/h;
+.super Ljava/lang/Object;
+.source "r8-map-id-f17ad24103d675eedaa128ce503ed5f4310dc55bb7b2ca9a52ffcecf647d5478"
+
+# interfaces
+.implements Ls90/g0;
+
+
+# static fields
+.field public static final a:Lx20/h;
+
+.field private static final descriptor:Lq90/h;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lx20/h;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lx20/h;->a:Lx20/h;
+
+    .line 7
+    .line 8
+    new-instance v1, Ls90/k0;
+
+    .line 9
+    .line 10
+    const-string v2, "io.github.alexzhirkevich.compottie.internal.helpers.DashType"
+
+    .line 11
+    .line 12
+    invoke-direct {v1, v2, v0}, Ls90/k0;-><init>(Ljava/lang/String;Ls90/g0;)V
+
+    .line 13
+    .line 14
+    .line 15
+    const-string v0, "type"
+
+    .line 16
+    .line 17
+    const/4 v2, 0x0
+
+    .line 18
+    invoke-virtual {v1, v0, v2}, Ls90/j1;->k(Ljava/lang/String;Z)V
+
+    .line 19
+    .line 20
+    .line 21
+    sput-object v1, Lx20/h;->descriptor:Lq90/h;
+
+    .line 22
+    .line 23
+    return-void
+.end method
+
+
+# virtual methods
+.method public final childSerializers()[Lo90/b;
+    .locals 3
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    new-array v0, v0, [Lo90/b;
+
+    .line 3
+    .line 4
+    sget-object v1, Ls90/w1;->a:Ls90/w1;
+
+    .line 5
+    .line 6
+    const/4 v2, 0x0
+
+    .line 7
+    aput-object v1, v0, v2
+
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+.method public final deserialize(Lr90/c;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lx20/h;->descriptor:Lq90/h;
+
+    .line 2
+    .line 3
+    invoke-interface {p1, v0}, Lr90/c;->q(Lq90/h;)Lr90/c;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    invoke-interface {p1}, Lr90/c;->o()Ljava/lang/String;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    const-string v0, "type"
+
+    .line 12
+    .line 13
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    new-instance v0, Lx20/j;
+
+    .line 17
+    .line 18
+    invoke-direct {v0, p1}, Lx20/j;-><init>(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-object v0
+.end method
+
+.method public final getDescriptor()Lq90/h;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lx20/h;->descriptor:Lq90/h;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final serialize(Lr90/d;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    check-cast p2, Lx20/j;
+
+    .line 2
+    .line 3
+    iget-object p2, p2, Lx20/j;->a:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    const-string v0, "value"
+
+    .line 6
+    .line 7
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/o;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    sget-object v0, Lx20/h;->descriptor:Lq90/h;
+
+    .line 11
+    .line 12
+    invoke-interface {p1, v0}, Lr90/d;->v(Lq90/h;)Lr90/d;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    if-nez p1, :cond_0
+
+    .line 17
+    .line 18
+    return-void
+
+    .line 19
+    :cond_0
+    invoke-interface {p1, p2}, Lr90/d;->F(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-void
+.end method
